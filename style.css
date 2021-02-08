@@ -1,0 +1,483 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif ;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h1,h2,h3{
+  font-family: 'Bebas Neue', cursive;
+  color: #fff;
+}
+h2{
+  font-size: 36px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+/* Navbar */
+.navbar-light .navbar-brand{
+  color: white;
+  font-weight: 800;
+}
+.navbar-dark .navbar-nav .nav-link, .nav-link{
+  color: white;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  padding: 1.5em 0.5em;
+  margin: 0 16px;
+}
+.navbar{
+  position: relative;
+  z-index: 5;
+}
+
+.bg-dark{
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+
+.logo-text{
+  letter-spacing: 2px;
+  font-weight: 800;
+  font-size: 23px;
+}
+/* end of Navbar */
+/* Header */
+header{
+  background-image: url(./image/main-bg.jpg);
+  background-size: cover;
+  height: 120vh;
+  max-width: 100%;
+  padding: 0;
+  position: relative;
+  margin-top: -100px;
+}
+
+
+header .text-area{
+  padding-top: 27%;
+  color: white;
+}
+
+.text-area h1{
+  font-size: 80px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.text-area .sub-head{
+  font-size: 25px;
+  letter-spacing: 2px;
+  padding: 0.7em 0;
+}
+
+.main-btn{
+  background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+  border-color: none !important;
+  border-radius: 4px;
+  padding: 1em 5em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+.text-area .main-btn{
+  
+  margin-bottom: 12em;
+}
+
+.text-area .icon-p{
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+/* end of Header */
+/* Section: Game Choice */
+
+section.game-choice{
+  background-image: url(./image/the-games-bg.jpg);
+  background-size: cover;
+  height: 130vh;
+  max-width: 100%;
+}
+
+section .space-top{
+  padding-top: 5%;
+}
+
+section .title-gamechoice{
+  color: white;
+  letter-spacing: 4px;
+}
+
+section .title-gamechoice h2{
+  font-size: 60px;
+}
+
+section .carousel-content{
+  padding-top: 25%
+}
+/* End of Section: Game Choice */
+
+/* Section: Feature */
+section.features{
+  background: url(./image/features.jpg);
+  background-size: cover;
+  height: 130vh;
+  max-width: 100%;
+}
+
+section .title-feature{
+  padding-top: 50%;
+  color: white;
+  padding-bottom: 2em;
+  letter-spacing: 4px;
+}
+
+section .head-text{
+  color: #FFB548;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 26px;
+  font-size: 24px;
+}
+
+section p{
+  color: #fff;
+}
+
+/* End of Section: Feature */
+
+/* Section: Requirements */
+
+section.requirements{
+  background-image: url(./image/requirements.png);
+  background-size: cover;
+  height: 130vh;
+  max-width: 100%;
+  position: relative;
+  color: black;
+}
+
+section.requirements::after{
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  background-image: radial-gradient(35.26% 50% at 60.32% 47.1%, rgba(255, 255, 255, 0) 3.36%, rgba(0, 0, 0, 0) 19.22%, #080A0B 99.74%);
+}
+
+.requirements .container{
+  position: relative;
+  z-index: 1;
+}
+
+section.requirements .title-requirements{
+  position: relative;
+  top: 0;
+  padding-bottom: 7em;
+}
+
+section.requirements .title-requirements h2{
+  color: white;
+  padding-top: 2em;
+  letter-spacing: 5px;
+  font-size: 60px;
+  display: inline-block;
+}
+
+section.requirements .title-requirements p{
+  color: white;
+  position: absolute;
+  left: 430px;
+  top: 150px;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+section.requirements .border{
+  border: 1px solid rgba(151, 151, 151, 0.3) !important;
+}
+
+section.requirements h3{
+  color: #FFB548;
+  letter-spacing: 3px;
+  padding-top: 0.5em;
+}
+
+
+/* END OF Section: Requirements */
+
+/* Section: Top Scored */
+
+section.top-scores{
+  background-image: url(./image/top-scores-bg-2.png);
+  background-size: cover;
+  height: 130vh;
+  max-width: 100%;
+}
+
+section.top-scores .text-content{
+  padding-top: 15em;
+}
+
+section.top-scores .text-content h2{
+  font-size: 50px;
+  letter-spacing: 9px;
+}
+
+section.top-scores .text-content p{
+  padding: 1em 0;
+}
+
+section.top-scores .name{
+  padding: 0 2em;
+}
+
+section.top-scores .name-reviewer{
+  color: #FFB548;
+  margin: 0;
+}
+
+section.top-scores .job-reviewer, section.top-scores .date-reviewer{
+  color: rgba(255, 255, 255, 0.6)
+}
+
+section.top-scores .date-reviewer{
+  margin: 0;
+}
+
+
+section.top-scores .card-reviewer{
+  background-color: rgba(255, 255, 255, 0.08);
+  border-radius: 10px;
+  padding: 1em;
+  margin: 1em;
+}
+
+section.top-scores .card-reviewer .photo{
+  border-radius: 50%;
+  margin-bottom: 1em;
+  filter: drop-shadow(10px 5px 0 #FFB548);
+}
+
+section.top-scores .card-reviewer:nth-child(2){
+  position: relative;
+  right: 120px;
+}
+/* End of Section: Top Scored */
+
+/* Section: Newsletter Subs */
+section.news-letter{
+  background-color: black;
+  max-width: 100%;
+  height: 130vh;
+}
+
+section.news-letter img{
+  position: relative;
+  top: 180px;
+}
+
+section.news-letter .content-subs{
+  padding-top: 15em;
+}
+
+section.news-letter .content-subs h2{
+  letter-spacing: 2px;
+  padding: 0.3em 0;
+}
+
+section.news-letter form{
+  margin-top: 2em;
+}
+
+section.news-letter .content-subs input{
+  padding: 0.7em 2em;
+  margin-right: 10px;
+  border: 0px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+
+section.news-letter .content-subs .main-btn{
+  padding: 0.7em 2em;
+}
+/* End of Section: Newsletter SUbs */
+
+/* Footer */
+
+footer{
+  background-color: black;
+}
+
+footer a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 1em;
+}
+
+footer img{
+  padding: 1em;
+}
+
+footer .border-b{
+  border-bottom: 1px solid #fff;
+  opacity: 0.5;
+  height: 100px;
+}
+
+footer .btm-link a{
+  border-right: 1px solid #fff;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0 10px;
+}
+footer .btm-link a:nth-child(3){
+  border: 0;
+}
+
+/* End of Footer */
+
+/* Mobile Vers */
+@media (max-width: 992px) and (min-width:768px){
+  header .text-area{
+    padding-top: 20%;
+  }
+
+  section .space-top{
+  padding-top: 10%;
+  }
+
+  section .carousel-content{
+  padding-top: 15%;
+  }
+
+  section.top-scores .text-content{
+    padding-top: 3em;
+    text-align: center;
+  }
+
+  section.top-scores .card-reviewer:nth-child(2){
+    position: static;
+  }
+
+  section.top-scores{
+    height: 130vh;
+  }
+  
+  section.news-letter img{
+    display: none;
+  }
+
+  footer a, footer img{
+    padding: 0.7em;
+    text-align: center;
+  }
+
+  footer .btm-link{
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  footer .medsos{
+    text-align: center;
+  }
+}
+
+
+
+@media (max-width: 768px){
+
+  header .text-area{
+    padding-top: 35%;
+  }
+
+  .text-area h1{
+    letter-spacing: 5px;
+  }
+  section .space-top{
+    padding-top: 70%;
+  }
+    
+  section .carousel-content{
+    padding-top: 20%;
+  }
+
+  section.requirements .title-requirements p{
+    left: 5px;
+    top: 270px;
+  }
+
+  section.top-scores .text-content{
+    padding-top: 1em;
+    text-align: center;
+  }
+
+  section.top-scores .card-reviewer:nth-child(2){
+    position: static;
+  }
+
+  section.news-letter img{
+    display: none;
+  }
+
+  footer a, footer img{
+    padding: 0.7em;
+    text-align: center;
+  }
+}
+
+
+/* height */
+
+@media (max-height: 680px){
+  .text-area .main-btn{
+    margin-bottom: 10em;
+  }
+
+  section.requirements{
+    height: 200vh;
+  }
+
+  section.top-scores{
+    height: 200vh;
+  } 
+
+  section.news-letter{
+    height: 150vh;
+  }
+
+  footer .medsos{
+    margin: 2em;
+  }
+  
+  footer .btm-footer{
+    padding: 2em 0;
+  }
+}
+
+@media (min-height:758px){
+  header .text-area{
+    height: 50%;
+  }
+  
+}
